@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #F2F3F7;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.main .slider {
+  padding-top: 150px;
+  display: none;
+}
+
+.main .slider h2 {
+  text-align: center;
+  padding: 20px;
+}
+
+.main .slider .slick-slide {
+  margin: 0 20px;
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  position: relative;
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.main .slider .slick-slide img {
+  width: 100%;
+}
+
+.main .slider .slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.main .row {
+  background-color: #fff;
+  padding: 15px;
+  border: 1px solid #d1cbcb;
+}
+
+.main .row .main-left {
+  padding: 15px 0;
+  position: relative;
+}
+
+.main .row .main-left h5 {
+  margin-left: 35px;
+}
+
+.main .row .main-left .menu-list {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 5px;
+}
+
+.main .row .main-left .menu-list a {
+  text-decoration: none;
+  color: orangered;
+  font-weight: bolder;
+}
+
+.main .row .main-left .menu-list:hover {
+  cursor: pointer;
+}
+
+.main .row .main-left .menu-list i {
+  position: absolute;
+  right: 10px;
+  font-size: 20px;
+}
+
+.main .row .main-left ul {
+  position: absolute;
+  display: none;
+  width: 400px;
+  min-height: 390px;
+  right: -400px;
+  top: 0px;
+  background-color: #fff;
+  z-index: 5;
+  -webkit-box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main .row .main-left ul li {
+  list-style: none;
+}
+
+.main .row .main-left ul li a {
+  text-decoration: none;
+}
+
+.main .row .main-right .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  min-height: 60px;
+  margin-bottom: 10px;
+}
+
+.main .row .main-right .box img {
+  height: 50px;
+  width: 50px;
+}
+
+@media (max-width: 756px) and (max-width: 756px) {
+  .main .slider {
+    display: inline;
+    width: 100%;
+  }
+}
+
+@media (max-width: 756px) {
+  .main .row {
+    display: none;
+  }
+  .main .row .main-left {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
